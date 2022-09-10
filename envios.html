@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="dom.js" defer></script>
+  <script src="main.js"></script>
+  <link rel="icon" href="./resources/VeganJala.png">
+  <title>VeganJala</title></head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand p-0 m-0" href="./index.html" title="Inicio">
+        <img src="./resources/VeganJala.png" alt="" width="80" height="80" class="rounded-circle">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav w-100 d-flex justify-content-evenly">
+            <li class="nav-item fw-bold dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menú</a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item fw-bold text-light" href="./salado.html">Salado</a></li>
+                <hr>
+                <li><a class="dropdown-item fw-bold text-light" href="./dulce.html">Dulce</a></li>
+              </ul>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link text-light" href="./envios.html">Envíos</a>
+            </li> 
+            <li class="nav-item fw-bold">
+              <a class="nav-link text-light" href="./contacto.html">Contacto</a>
+            </li>                   
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div aria-label="breadcrumb" class="position-absolute">
+    <ol class="breadcrumb mt-1 mb-0 ps-2">
+      <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Envíos</li>
+    </ol>
+  </div>
+
+  <div class="container">
+    <p class="text-center mt-5 fs-3">Los envios se coordinan luego de hacer el pedido.</p>
+    <hr class="w-25 m-auto">
+    <div class="table-responsive">
+      <table class="table table-dark table-striped w-50 mx-auto my-5 py-5 rounded container-sm">
+        <thead>
+          <tr class="text-center">
+            <th scope="col" class="border-end"></th>
+            <th scope="col" colspan="2" class="border-end">Zona Norte</th>
+            <th scope="col" colspan="3" class="border-end">CABA</th>        
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="text-center">
+            <th scope="row" class="border-end">Barrio</th>
+            <td>Florida, Munro, Vicente Lopez</td>
+            <td class="border-end">Carapachay, Olivos Martinez, La Lucila</td>
+            <td>Saavedra, Villa Urquiza, Coghlan</td>
+            <td>Villa Pueyrredón, Parque Chas, Villa Ortuzar, Agronomía, Belgrano, Nuñez</td>
+            <td>Villa Devoto, Villa del Parque, Paternal, Colegiales, Chararita, Palermo</td>
+          </tr>
+          <tr class="text-center">
+            <th scope="row" class="border-end">Precio</th>
+            <td>$450</td>
+            <td class="border-end">$550</td>
+            <td>$400</td>
+            <td>$500</td>
+            <td>$600</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr class="w-25 m-auto">
+    <p class="text-center mt-5 fs-3">Con un mínimo de compra de $5.000 -> 50% de descuento en el envío!</p>
+    <p class="text-center mt-5 fs-3">Con un mínimo de compra de $8.000 -> Envío gratis!</p>
+  </div>
+
+
+  <footer class="bg-dark fixed-bottom text-center text-muted py-2">VeganJala - Comida Vegana</footer>
+
+</body>
+</html>
